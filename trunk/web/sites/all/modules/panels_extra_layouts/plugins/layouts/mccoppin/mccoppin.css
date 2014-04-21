@@ -1,0 +1,96 @@
+/**
+ * @file
+ * McCoppin panel layout
+**/
+
+.mccoppin-header {
+	
+}
+.mccoppin-container {
+  margin-bottom: 1em;
+}
+
+.mccoppin-column-content-region {
+  min-height: 12px;
+  width: 15%;
+  float: left;
+  margin-right:2%;
+
+ box-shadow:0px 0px 3px #ccc;
+}
+
+
+.mccoppin-column-content-region.mccoppin-column6 {
+	margin-right:0%;
+}
+
+
+  .mccoppin-chunk-content-region {
+  min-height: 12px;
+  width: 32%;
+  float: left;
+  margin-right:2%;
+ 
+  }
+  
+ .mccoppin-chunk-content-region.mccoppin-chunk3 {
+	margin-right:0%;
+}
+
+
+.mccoppin-column-content-region button.btn.btn-primary, mccoppin-chunk-content-region button.btn.btn-primary {
+	background:none;
+	border:0px;
+}
+
+.mccoppin-column-content-region button.btn.btn-primary {
+	width:100%;
+	padding:0px;
+	
+}
+
+.mccoppin-column-content-region button.btn.btn-primary img {
+	width:100%;
+	padding:0px;
+	text-align:center;
+	margin:0px auto;
+}
+
+.mccoppin-column-content-region button.btn.btn-primary:hover {
+	opacity:0.7;
+}
+
+
+
+  .mccoppin-chunk-content-region-inner {
+  
+  }
+
+  .mccoppin-column-content-region-inner {
+
+  }
+
+  .mccoppin-column6 {
+
+  }
+  .mccoppin-chunk3-inner,
+    .mccoppin-column6-inner {
+      margin-right: 0;
+	  
+    }
+    
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .mccoppin-column-content-region,
+  .mccoppin-chunk-content-region,
+  .mccoppin-column6,
+   .mccoppin-chunk3 {
+    width: 100%;
+    float: none;
+  }
+  
+  .mccoppin-column-content-region-inner,
+   .mccoppin-chunk-content-region-inner {
+    margin-right: 0;
+  }
+}

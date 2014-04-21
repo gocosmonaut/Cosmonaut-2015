@@ -1,0 +1,195 @@
+/* CSS Document */
+
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file. 
+ */
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+body, h1, h2, h3, h4, a {
+	font-family: 'Oxygen', sans-serif !important;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	padding:0px;
+}
+
+a {
+	color:#9A0000;
+	transition: all 0.4s ease;
+
+}
+a:hover {
+	transition: all 0.4s ease;
+	color:red;
+}
+
+section.col-sm-12 {
+	margin-top:12px;
+}
+
+header#navbar {
+	background: white url(../../../../default/files/wings.jpg) center top no-repeat;
+	
+	
+	
+}
+
+header#navbar.navbar .container {
+	margin-bottom:0x;border-bottom:1px solid #c1ba9d;
+	padding:2% 0% 1.5%;
+}
+
+header#navbar.navbar-fixed-top.navbar-default {
+	border:0px;
+}
+
+.navbar-btn {
+	margin-top:0px;
+}
+
+div.navbar-collapse.collapse {
+	padding:0px;
+}
+
+.front h1.page-header {
+	
+}
+
+.front h1 {
+	font-size:3em;
+	font-weight:300;
+	letter-spacing:0.5px;
+	padding:2px;
+margin:3.5% 0% 3% 0%;
+}
+
+.front h1 a {
+	padding:0px 1% .5%;
+	margin-right:5px;
+	font-weight:400;
+	font-size:1.25em;
+
+	background:#FFCC00;
+	border-radius:6px;
+	
+}
+
+.front h1 a:hover {
+	background:red;
+	color:white;
+}
+
+
+h2.front-intro {
+text-align:center;
+padding-bottom:1.5%;
+}
+
+h4#myModalLabel.modal-title {
+	line-height:100%;
+	font-size:1.3em;
+	letter-spacing:0.5px;
+	
+}
+
+a, a:hover {
+	text-decoration:none;
+}
+
+ul.menu.nav.navbar-nav {
+	float:right;
+}
+
+div.panel-heading {
+	
+	padding:0px;
+
+    background-image: -webkit-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: -moz-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: -o-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: linear-gradient(top, #9a0000 0%,#700000 100%);
+
+}
+
+div.panel-heading a {
+	transition: all 1.3s ease;
+}
+
+div.panel-heading a:hover {
+	transition: all 0.3s ease;
+	background:red;
+	display:block;
+	
+}
+
+div.modal-dialog {
+	width:84%;
+	min-width:300px;
+	max-width:1280px;
+}
+
+div.modal-header {
+background:#f1f1f1;
+    border-bottom: 2px solid white;
+    min-height: 16px;
+    padding: 10px 15px;
+}
+
+div.modal-header  h4{
+font-size:1.5em;
+/* letter-spacing:.5px; */
+}
+
+h4.portfolio-title {
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	border-top:1px solid red;
+	background:#efefef;
+}
+
+h4.portfolio-title a{
+	font-size:.7em;
+	margin:0px;
+	padding:5px 5px 6px;
+	display:block;
+}
+
+h4.portfolio-title a:hover{
+	color:white;
+	background:red;
+}
+
+
+
+
+div.modal-body {
+	padding:0px;
+}
+
+div.modal-footer {
+	display:none;
+}
+
+div.modal-body img.portfolio {
+	width:100%;
+}
+
+/* CAROUSEL */
+
+
+ div#myCarousel.carousel div.carousel-inner div.item {
+	height:300px;
+	background:red;
+	
+}
+
+.carousel-control.right span, .carousel-control.left span {
+	display:none;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+	opacity:0.5;
+}
+
