@@ -33,6 +33,12 @@
  
   }
   
+    .mccoppin-chunk-content-region h2.pane-title {
+ font-size:1.5em;
+ color:#74662b;
+ 
+  }
+  
  .mccoppin-chunk-content-region.mccoppin-chunk3 {
 	margin-right:0%;
 }

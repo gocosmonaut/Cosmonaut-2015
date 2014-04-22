@@ -37,12 +37,29 @@ header#navbar {
 
 header#navbar.navbar .container {
 	margin-bottom:0x;border-bottom:1px solid #c1ba9d;
-	padding:2% 0% 0%;
+	padding:2% 0%;
 }
 
 header#navbar.navbar-fixed-top.navbar-default {
 	border:0px;
 }
+
+.navbar-nav > li > a {
+	 letter-spacing: 0.5px;
+    padding: 5px 7px;
+    text-transform: uppercase;
+}
+
+header#navbar.navbar .container ul.menu li a:hover {
+	 background:red;
+	 color:white;
+}
+
+header#navbar.navbar .container ul.menu li a.active {
+	 background:#eee;
+	 color:#ccc;
+}
+
 
 body.navbar-is-fixed-top {
 	padding-top:100px !important;
@@ -68,25 +85,21 @@ div.navbar-collapse.collapse {
 margin:0% 0% 3% 0%;
 }
 
-.front h1 a {
+.front h1 span {
 	padding:0px 1% .5%;
 	margin-right:5px;
-	font-weight:400;
-	font-size:1.25em;
-
+	font-size:1.1em;
+color:#9a0000;
 	background:#FFCC00;
 	border-radius:6px;
-	
+	font-weight:500;
 }
 
-.front h1 a:hover {
-	background:red;
-	color:white;
-}
 
 h1.page-header {
 	border:0px;
 }
+
 
 
 h2.front-intro {
@@ -107,28 +120,6 @@ a, a:hover {
 
 ul.menu.nav.navbar-nav {
 	float:right;
-}
-
-div.panel-heading {
-	
-	padding:0px;
-
-    background-image: -webkit-linear-gradient(top, #9a0000 0%,#700000 100%);
-    background-image: -moz-linear-gradient(top, #9a0000 0%,#700000 100%);
-    background-image: -o-linear-gradient(top, #9a0000 0%,#700000 100%);
-    background-image: linear-gradient(top, #9a0000 0%,#700000 100%);
-
-}
-
-div.panel-heading a {
-	transition: all 1.3s ease;
-}
-
-div.panel-heading a:hover {
-	transition: all 0.3s ease;
-	background:red;
-	display:block;
-	
 }
 
 div.modal-dialog {
@@ -187,10 +178,24 @@ div.modal-body img.portfolio {
 /* CAROUSEL */
 
 
- div#myCarousel.carousel div.carousel-inner div.item {
-	height:300px;
-	background:red;
+ div#myCarousel.carousel div.carousel-inner  {
+	height:260px;
+	background: url(../../../../default/files/bird_head.png) bottom right no-repeat;
 	
+ }
+ div#myCarousel.carousel div.carousel-inner div.item {
+	height:260px;
+	z-index:-1;
+	background:red;
+}
+.carousel-control.right {
+background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3) 0px, transparent 100%);
+
+}
+
+.carousel-control.left {
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0px, transparent 100%);
+
 }
 
 .carousel-control.right span, .carousel-control.left span {
@@ -199,5 +204,52 @@ div.modal-body img.portfolio {
 
 .carousel-control:hover, .carousel-control:focus {
 	opacity:0.5;
+}
+
+div.carousel-caption {
+	left:5%;
+	right:5%;
+	bottom:25%;
+	text-align:left;
+}
+
+div.carousel-caption h1 {
+	text-shadow:none;
+}
+
+div.carousel-caption h1 a {
+background: none repeat scroll 0 0 #FFCC00;
+    border-radius: 6px;
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-right: 5px;
+    padding: 0 1%;
+}
+
+div.carousel-caption h1 a:hover {
+background: none repeat scroll 0 0 #9a0000;
+    color:white;
+}
+
+.carousel-indicators {
+	bottom:5px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0 1%;
+    text-indent: -999px;
+    width: 14px;
+	border:none;
+}
+.carousel-indicators .active {
+    background-color: #FFFFFF;
+    height: 14px;
+    margin: 0 1%;
+    width: 14px;
 }
 
