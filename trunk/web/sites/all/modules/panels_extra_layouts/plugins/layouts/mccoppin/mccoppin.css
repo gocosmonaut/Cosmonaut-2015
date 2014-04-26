@@ -39,7 +39,7 @@
  
   }
   
- .mccoppin-chunk-content-region.mccoppin-chunk3 {
+ .mccoppin-chunk-content-region.mccoppin-chunk3, .mccoppin-chunk-content-region.mccoppin-chunk6 {
 	margin-right:0%;
 }
 
@@ -80,6 +80,7 @@
 
   }
   .mccoppin-chunk3-inner,
+  .mccoppin-chunk6-inner,
     .mccoppin-column6-inner {
       margin-right: 0;
 	  

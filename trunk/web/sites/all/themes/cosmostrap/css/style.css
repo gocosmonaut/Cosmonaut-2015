@@ -209,7 +209,7 @@ background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0px, transparent 
 div.carousel-caption {
 	left:5%;
 	right:5%;
-	bottom:25%;
+	bottom:5%;
 	text-align:left;
 }
 
@@ -253,3 +253,197 @@ background: none repeat scroll 0 0 #9a0000;
     width: 14px;
 }
 
+div.mccoppin-container.mccoppin-lowestbanner div.jumbotron-russian {
+	background:url(../../../../default/files/responsive_1170.jpg) top left no-repeat;
+	max-width:1170px;
+	height:400px;
+	width:100%;
+	padding: 25% 0 0 4%;
+	margin-top:1%;
+	border-top-left-radius: 18px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 4px;
+	
+}
+
+p.jt-tiny, p.jt-phone, p.jt-MCGA,
+p.jt-VGA, p.jt-SVGA, p.jt-XGA, p.jt-XGA-plus,
+p.jt-WXGA,
+p.jt-HD,
+p.jt-SXGA-plus,
+p.jt-WXGA-plus,
+p.jt-UXGA,
+p.jt-WSXGA,
+p.jt-FHD,
+p.jt-QWXGA,
+p.jt-QSXGA,
+p.jt-QWXGA-plus,
+p.jt-WQSXGA,
+p.jt-QFHD,
+p.jt-HXGA,
+p.jt-massive 
+ {
+	display:none;
+	color:white;
+	line-height:140%;
+	font-size:.9em;
+}
+	@media only screen and  (min-width: 0px) and (max-width: 319px) { /*TINY */
+		
+		p.jt-tiny {
+			display:block;
+		}
+	}
+	
+	@media only screen and  (min-width: 320px) and (max-width: 480px) { /*PHONE */
+	
+		p.jt-phone {
+			display:block;
+		}
+	}
+	
+	
+		@media only screen and  (min-width: 481px) and (max-width: 639px) { /* MCGA */
+		
+		p.jt-MCGA {
+			display:block;
+		}
+	}
+	
+		@media only screen and  (min-width: 640px) and (max-width: 799px) { /* VGA */
+		
+		p.jt-VGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 800px) and (max-width: 1023px) { /* SVGA */
+		
+		p.jt-SVGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1024px) and (max-width: 1151px) { /* WSVGA-XGA */
+		
+		p.jt-XGA {
+			display:block;
+		}
+	}
+	
+	@media only screen and  (min-width: 900px) and (max-width: 1199px) { 
+	
+	div.mccoppin-container.mccoppin-lowestbanner div.jumbotron-russian {
+	background:url(../../../../default/files/responsive_970.jpg) top left no-repeat;
+	max-width:970px;
+	height:332px;
+	width:100%;
+	font-size:1.35em;
+}
+	}
+	
+				@media only screen and  (min-width: 1152px) and (max-width: 1279px) { /* XGA plus */
+		
+		p.jt-XGA-plus {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1280px) and (max-width: 1359px) { /* WXGA-SXGA */
+		
+		p.jt-WXGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1360px) and (max-width: 1399px) { /* HD */
+		
+		p.jt-HD {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1400px) and (max-width: 1439px) { /* SXGA plus */
+		
+		p.jt-SXGA-plus {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1440px) and (max-width: 1599px) { /* WXGA plus */
+		
+		p.jt-WXGA-plus {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1600px) and (max-width: 1679px) { /* HD plus and UXGA */
+		
+		p.jt-UXGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1680px) and (max-width: 1919px) { /* WSXGA plus */
+		
+		p.jt-WSXGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 1920px) and (max-width: 2047px) { /* FHD and WUXGA */
+		
+		p.jt-FHD {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 2048px) and (max-width: 2559px) { /* QWXGA and 2K */
+		
+		p.jt-QWXGA {
+			display:block;x 
+		}
+	}
+	
+			@media only screen and  (min-width: 2560px) and (max-width: 2879px) { /* WQHD and WQXGA and QSXGA */
+		
+		p.jt-QSXGA {
+			display:block;
+		}
+	}
+	
+		@media only screen and  (min-width: 2880px) and (max-width: 3199px) { /* QWXGA plus */
+		
+		p.jt-QWXGA-plus {
+			display:block;
+		}
+	}
+	
+		@media only screen and  (min-width: 3200px) and (max-width: 3839px) { /* WQSXGA and QUXGA */
+		
+		p.jt-WQSXGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 3840px) and (max-width: 4095px) { /* QFHD */
+		
+		p.jt-QFHD {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 4096px) and (max-width: 4999px) { /* 4K and HXGA */
+		
+		p.jt-HXGA {
+			display:block;
+		}
+	}
+	
+			@media only screen and  (min-width: 5000px) and (max-width: 9999px) { /* massive */
+		
+		p.jt-massive {
+			display:block;
+		}
+	}

@@ -36,6 +36,12 @@
     </div>
 </div>
 
+ <div class="mccoppin-container mccoppin-lowerbanner clearfix panel-panel">
+    <div class="mccoppin-container-inner mccoppin-lowerbanner-inner panel-panel-inner">
+      <?php print $content['lowerbanner']; ?>
+    </div>
+  </div>
+
   <div class="mccoppin-container mccoppin-column-content clearfix">
     <div class="mccoppin-column-content-region mccoppin-column1 panel-panel">
       <div class="mccoppin-column-content-region-inner mccoppin-column1-inner panel-panel-inner">
@@ -69,4 +75,29 @@
     </div>
   </div>
   
+   <div class="mccoppin-container mccoppin-lowestbanner clearfix panel-panel">
+    <div class="mccoppin-container-inner mccoppin-lowestbanner-inner panel-panel-inner">
+      <?php print $content['lowestbanner']; ?>
+    </div>
+  </div>
+  
+<div class="mccoppin-container mccoppin-chunk-content clearfix">
+    <div class="mccoppin-chunk-content-region mccoppin-chunk4 panel-panel">
+      <div class="mccoppin-chunk-content-region-inner mccoppin-chunk4-inner panel-panel-inner">
+        <?php print $content['chunk4']; ?>
+      </div>
+    </div>
+    <div class="mccoppin-chunk-content-region mccoppin-chunk5 panel-panel">
+      <div class="mccoppin-chunk-content-region-inner mccoppin-chunk5-inner panel-panel-inner">
+        <?php print $content['chunk5']; ?>
+      </div>
+    </div>
+    <div class="mccoppin-chunk-content-region mccoppin-chunk6 panel-panel">
+      <div class="mccoppin-chunk-content-region-inner mccoppin-chunk6-inner panel-panel-inner">
+        <?php print $content['chunk6']; ?>
+      </div>
+    </div>
+</div>
+  
+
 </div><!-- /.mccoppin -->
