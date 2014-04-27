@@ -15,8 +15,6 @@
   width: 15%;
   float: left;
   margin-right:2%;
-
- box-shadow:0px 0px 3px #ccc;
 }
 
 
@@ -43,6 +41,11 @@
 	margin-right:0%;
 }
 
+.mccoppin-chunk-content-region.mccoppin-chunk6 {
+	float:right;
+	width:29%;
+}
+
 
 .mccoppin-column-content-region button.btn.btn-primary, mccoppin-chunk-content-region button.btn.btn-primary {
 	background:none;
@@ -55,6 +58,8 @@
 	
 }
 
+
+
 .mccoppin-column-content-region button.btn.btn-primary img {
 	width:100%;
 	padding:0px;
@@ -62,8 +67,12 @@
 	margin:0px auto;
 }
 
+
+
 .mccoppin-column-content-region button.btn.btn-primary:hover {
 	opacity:0.7;
+	
+
 }
 
 

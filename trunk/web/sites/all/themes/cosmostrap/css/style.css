@@ -14,13 +14,13 @@ body, h1, h2, h3, h4, a {
 	padding:0px;
 }
 
-a {
+a, button:hover, img a:hover {
 	color:#9A0000;
-	transition: all 0.4s ease;
+	transition: all 0.3s ease;
 
 }
 a:hover {
-	transition: all 0.4s ease;
+	transition: all 0.3s ease;
 	color:red;
 }
 
@@ -231,6 +231,14 @@ background: none repeat scroll 0 0 #9a0000;
     color:white;
 }
 
+div.carousel-caption p {
+	font-size:1.25em;
+}
+
+div.carousel-caption p.sourced {
+	font-size:.8em;
+}
+
 .carousel-indicators {
 	bottom:5px;
 }
@@ -253,19 +261,52 @@ background: none repeat scroll 0 0 #9a0000;
     width: 14px;
 }
 
+div.mccoppin-container.mccoppin-lowerbanner {
+	background:#74662B;
+	margin:3% 0% 1.5%;
+	padding:0px;
+	text-align:center;
+	color:white;
+	letter-spacing:1.5px;
+	text-transform:uppercase;
+}
+
+div.mccoppin-container.mccoppin-lowerbanner h2  {
+	font-size:1em;
+	color:#ff9900;
+	margin:0px;
+	padding:4px 0px;
+}
+
+div.mccoppin-container.mccoppin-lowerbanner h2 span a {
+	color: white !important;
+	font-size:.8em;
+	margin-left:18px;
+	padding:1px 4px;
+}
+
+div.mccoppin-container.mccoppin-lowerbanner h2  a:hover {
+	background:#FF9900;
+	color:#9A0000;
+	border-radius:2px;
+}
+
 div.mccoppin-container.mccoppin-lowestbanner div.jumbotron-russian {
 	background:url(../../../../default/files/responsive_1170.jpg) top left no-repeat;
 	max-width:1170px;
 	height:400px;
 	width:100%;
 	padding: 25% 0 0 4%;
-	margin-top:1%;
+	margin:3% 0%;
 	border-top-left-radius: 18px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 18px;
     border-bottom-left-radius: 4px;
 	
 }
+
+
+	
 
 p.jt-tiny, p.jt-phone, p.jt-MCGA,
 p.jt-VGA, p.jt-SVGA, p.jt-XGA, p.jt-XGA-plus,
