@@ -263,19 +263,25 @@ div.carousel-caption p.sourced {
 
 div.mccoppin-container.mccoppin-lowerbanner {
 	background:#74662B;
-	margin:3% 0% 1.5%;
+	margin:4% 0% 1.5%;
 	padding:0px;
 	text-align:center;
 	color:white;
 	letter-spacing:1.5px;
 	text-transform:uppercase;
+	transition: all 0.3s ease;
+}
+
+div.mccoppin-container.mccoppin-lowerbanner:hover {
+	background:#990000;
+	transition: all 0.3s ease;
 }
 
 div.mccoppin-container.mccoppin-lowerbanner h2  {
 	font-size:1em;
 	color:#ff9900;
 	margin:0px;
-	padding:4px 0px;
+	padding:4px 0px 6px;
 }
 
 div.mccoppin-container.mccoppin-lowerbanner h2 span a {
