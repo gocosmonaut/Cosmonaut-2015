@@ -9,21 +9,39 @@
 
 .rolph-quarter {
   min-height: 1px;
-  width: 25.532%; /* 240 / 940 = 25.532% */
+  width: 22.5%; /* 240 / 940 = 25.532% */
   float: left;
+  margin-right:3.3333%;
 }
 
   .rolph-quarter-inner {
-    margin-right: 20px;
+  
   }
 
 .rolph-quarter4 {
-  width: 23.404%; /* 220 / 940 = 23.404% */
+  margin-right:0%;
 }
 
   .rolph-quarter4-inner {
     margin-right: 0;
   }
+  
+ div.rolph-column-content-region-inner  .btn-lg {
+	 padding:0px;
+	 border:0px;
+	 width:100%;
+ }
+ 
+ div.rolph-column-content-region-inner  .btn-lg  img{
+	 padding:0px;
+	 border:0px;
+	 width:100%;
+ }
+ 
+ div.rolph-column-content-region-inner div.pane-block {
+	 margin-bottom:15%;
+ }
+  
   
 /* iPhone [portrait + landscape] */
 @media only screen and (max-width: 480px) {
