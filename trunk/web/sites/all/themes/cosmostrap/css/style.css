@@ -69,6 +69,10 @@ body.navbar-is-fixed-top {
 	margin-top:0px;
 }
 
+.btn-primary {
+	background:none;
+}
+
 div.navbar-collapse.collapse {
 	padding:0px;
 }
@@ -153,6 +157,7 @@ h4.portfolio-title a{
 	margin:0px;
 	padding:5px 5px 6px;
 	display:block;
+	 text-transform: uppercase;
 }
 
 h4.portfolio-title a:hover{

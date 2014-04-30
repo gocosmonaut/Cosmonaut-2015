@@ -34,14 +34,19 @@
  
  div.rolph-column-content-region-inner  .btn-lg  img{
 	 padding:0px;
-	 border:0px;
+	 border-bottom: 3px solid white;
 	 width:100%;
  }
  
  div.rolph-column-content-region-inner div.pane-block {
 	 margin-bottom:15%;
  }
-  
+ 
+ 
+div.rolph-column-content-region-inner button.btn.btn-primary:hover {
+	opacity:0.7;
+	
+}
   
 /* iPhone [portrait + landscape] */
 @media only screen and (max-width: 480px) {
